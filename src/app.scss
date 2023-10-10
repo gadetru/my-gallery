@@ -192,8 +192,18 @@ $gris-negro: #424242;
             margin-bottom: 0;
         }
         .location{
+
             font-size: 14px;
+
         }
+        .contadores{
+        width: 100%;
+            div{
+            width: 100px;
+            height: 70px;
+            }
+        }
+
     }
     //estilando las fotos
 
@@ -208,11 +218,11 @@ $gris-negro: #424242;
           
             .img-1{
                 width: 40%;
-                height: 200px;
+                height: 150px;
             }
             .img-2{
                 width: 50%;
-                height: 200px;
+                height: 150px;
             }
     
         }
@@ -222,7 +232,7 @@ $gris-negro: #424242;
             .contenedor-bloque{
                 width: 60%;
                 .img-3{
-                    height: 200px;
+                    height: 150px;
                 }
                 .tercera-linea{
                     width: 100%;
@@ -230,7 +240,7 @@ $gris-negro: #424242;
                     gap: 1rem;
                     .img-4{
                         width:47%;
-                        height: 200px;
+                        height: 150px;
                         object-fit: cover;
                         border-radius: 12px;
                 }   
@@ -240,7 +250,7 @@ $gris-negro: #424242;
     
             .img-5{
                 width: 30%;
-                height: 415px;
+                height: 315px;
             }
         } 
     }
